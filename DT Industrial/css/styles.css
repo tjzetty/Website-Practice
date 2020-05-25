@@ -1,0 +1,143 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+:root {
+  --mainColor: #ff9800;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 70em;
+  margin: 0 auto;
+}
+
+/* typography
+========================= */
+
+h1 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+.slogan {
+  font-weight: 900;
+}
+
+.slogan span {
+  display: block;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+
+/* buttons
+========================= */
+
+.button {
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em
+}
+
+.button-accent {
+  background-color: white;
+  color: black;
+}
+
+/* header
+========================= */
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  background-color: transparent;
+  top:0;
+}
+
+.logo {
+  max-width: 30vw;
+}
+
+.nav {
+
+}
+
+nav ul {
+}
+
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 0px 0px;
+  transition: background-size 200ms;
+}
+
+a:hover,
+a:focus {
+  background-size: 1px 50px;
+}
+
+
+/* home
+========================= */
+
+.home {
+  background-color: #6e6e6e;
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0;
+  color: black;
+  height: 50vh;
+}
+
+
+/* home-desc
+========================= */
+
+
+
+/* gallery
+========================= */
+
+
+/* footer
+========================= */
